@@ -1,0 +1,15 @@
+2017-04-25 12:53:13 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "ID[*]"; expected "INSERT, {"; SQL statement:
+ID [42001-191]
+2017-04-25 12:53:19 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "ID[*] TODOS"; expected "INSERT, {"; SQL statement:
+ID TODOS [42001-191]
+2017-04-25 12:53:41 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "ID[*]"; expected "INSERT, {"; SQL statement:
+ID [42001-191]
+2017-05-05 15:49:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TODOS VALUES (1, BLAH, TRUE [*]"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO todos Values (1, blah, true [42001-191]
+2017-05-09 17:07:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TODOS VALUES (1, BLAH, TRUE [*]"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO todos Values (1, blah, true [42001-191]
